@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap");
+
+/* Ensure Tailwind CSS is installed and configured correctly */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
